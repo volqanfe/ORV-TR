@@ -1,0 +1,211 @@
+/* ORV Turkish Translation Styles */
+:root {
+    --primary: #1a1a1a;
+    --secondary: #2a2a2a;
+    --text-primary: #e3e3e3;
+    --text-secondary: #b3b3b3;
+    --accent: #4a9eff;
+    --default-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --paragraph-space: 1.2em;
+    --line-space: 0.8em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--text-primary);
+    font-family: var(--default-font);
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.chapter-content {
+    background-color: var(--secondary);
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: var(--text-primary);
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 15px;
+}
+
+h3 {
+    color: var(--text-primary);
+    font-size: 1.4em;
+    margin: var(--paragraph-space) 0;
+    text-align: center;
+}
+
+.orv_line {
+    margin-right: auto;
+    margin-top: var(--paragraph-space);
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.orv_line:first-of-type {
+    margin-top: 0;
+}
+
+/* Special formatting for dialogue/messages */
+.orv_line:has-text("–") {
+    font-style: italic;
+    color: var(--text-secondary);
+    margin-left: 20px;
+}
+
+/* Navigation */
+.change-ch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid var(--text-secondary);
+    margin-top: 30px;
+}
+
+.change-ch a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-primary);
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: var(--secondary);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.change-ch a:hover {
+    background-color: var(--accent);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.change-ch a svg {
+    width: 20px;
+    height: 20px;
+}
+
+hr {
+    margin-top: var(--line-space);
+    border: none;
+    height: 1px;
+    background-color: var(--text-secondary);
+    opacity: 0.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .chapter-content {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    .orv_line {
+        font-size: 1em;
+    }
+    
+    .change-ch {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .change-ch a {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Special message window styles (for future use) */
+.orv_system, .orv_window {
+    margin-top: var(--paragraph-space);
+    background-color: rgba(74, 158, 255, 0.1);
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.orv_system p, .orv_window p {
+    margin: 0;
+    color: var(--text-primary);
+}
+
+.orv_window_title {
+    font-weight: bold;
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+/* Constellation messages */
+.orv_constellation {
+    margin-top: var(--paragraph-space);
+    background-color: rgba(15, 126, 42, 0.1);
+    border-left: 3px solid rgb(15, 126, 42);
+    padding: 15px;
+    border-radius: 0 6px 6px 0;
+}
+
+/* Quote styling */
+.orv_quote {
+    margin-top: var(--paragraph-space);
+    background-color: rgba(255, 162, 0, 0.1);
+    border-left: 3px solid rgb(255, 162, 0);
+    padding: 15px;
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+}
+
+/* Notice styling */
+.orv_notice {
+    margin-top: var(--paragraph-space);
+    background-color: rgba(233, 30, 179, 0.1);
+    border-left: 3px solid rgb(233, 30, 179);
+    padding: 15px;
+    border-radius: 0 6px 6px 0;
+}
+
+.orv_notice p::before {
+    content: "ⓘ Not: ";
+    color: rgb(233, 30, 179);
+    font-weight: bold;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selection styling */
+::selection {
+    background-color: var(--accent);
+    color: white;
+}
+
