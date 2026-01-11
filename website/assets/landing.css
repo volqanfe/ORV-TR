@@ -1,0 +1,110 @@
+html {
+    background-image: url("./background-stars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-color: rgb(24, 24, 24);
+}
+
+
+@media screen and (max-width: 800px) {
+    html {
+        background-image: url("./background-stars-mobile.jpg");
+    }
+    
+}
+
+body {
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    backdrop-filter: blur(0.3px);
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.551);
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+}
+
+.made-by a {
+    filter: brightness(50%);
+    transition-duration: 1s;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    margin: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none !important;
+}
+
+.made-by a:hover {
+    filter: brightness(150%);
+}
+
+
+.title-img {
+    filter: brightness(125%);
+    margin-top: 5vh;
+    width: auto;
+    max-width: min-content;
+    height: 30%;
+    max-height: 40vw;
+}
+
+.quote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    max-width: min(500px,90%);
+    position: relative;
+    border: none;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+
+.quote::before,
+.quote::after {
+    position: absolute;
+    content: "";
+    width: 2em;
+    height: 1em;
+}
+
+.quote::before {
+    left: 0;
+    top: 0;
+    border-left: 0.1em solid white;
+    border-top: 0.1em solid white;
+}
+
+.quote::after {
+    right: 0;
+    bottom: 0;
+    border-right: 0.1em solid white;
+    border-bottom: 0.1em solid white;
+}
+
+.buttons {
+    width: min(300px,90%);
+}
+
+.buttons button {
+    transition-duration: 500ms;
+    font-size: large;
+    color: white;
+    margin: 0.2em 0.1em;
+    padding: 0.5em 1em;
+    background-color: rgba(0, 0, 0, 0.112);
+    border: 0.2em white solid;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: black;
+}
+
