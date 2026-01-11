@@ -157,8 +157,8 @@ ___
 
 * [Munipa](https://link.munpia.com/n/104753)
 * [Naver](http://naver.me/5eOtt9rN)
-* [ORV-Reader](https://orv.pages.dev/stories/cont/read/ch_{chapter_number}) (Unofficial Fan TL)
-
+* [ORV-Reader](https://orv.pages.dev/stories/cont/read/ch_{chapter_number}) (edited MTL)
+* [Download EPUB](https://orv.pages.dev/download) (edited MTL)
 ___
 
 All Discussions: [Github](https://github.com/Bittu5134/ORV-Reader/discussions) \\
@@ -168,7 +168,7 @@ Chapter Comments: [ORV-Reader](https://orv.pages.dev/stories/cont/read/ch_{chapt
 ___
 
 - Please support the Authors by purchasing chapters on Munipa or Naver.
-- You can read the English Translations on [ORV-Reader](https://orv.pages.dev/).
+- Contact u/jdcomplex and show her proof of purchase to get access to a superior TL of the side stories.
 - If for some reason you can't buy the chapters then consider writing Reviews for ORV on Goodreads and/or other places.
 - Spreading word about a Story is another good way to show your appreciation for the Authors.
 

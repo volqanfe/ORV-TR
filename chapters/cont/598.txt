@@ -4,11 +4,11 @@ In the colorless world, all blood looked the same.
 No red blood, no blue blood. Everything was gray.
 I felt sad.
 In this wide world.
-<!>[The exclusive skill '⬜⬜' resonates with your emotions.]
+<!>[The exclusive skill '■■' resonates with your emotions.]
 There's not a single piece of paper for extras.
 +
 # Words That Can't Be Said
-「⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜.......」
+「■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■.......」
 * At your current skill level, you can write a total of 260 additional characters.
 +
 <!>[You can stay in the 'Snowfield' for a total of 3 minutes.]
@@ -71,7 +71,7 @@ I don't know if this will work.
 "Idea."
 Still, I had to try.
 "Let's go."
-'Idea of Almost Anything' gurgled into the bracelet.
+'Thoughts of Almost Everything' gurgled into the bracelet.
 I commanded it.
 <!>[The exclusive skill 'Incite Lv.5' is activated.]
 "Turn into the Ever-changing Stealth Suit."
@@ -163,10 +163,10 @@ But now I had no other choice.
 Poison Bomb. It was an item they left behind when we fought the Misreading Association.
 A biochemical weapon made from the anal sac of a poisonous rhinoceros.
 I picked up one of the used bombs at the time and put it on the possible mimicry list.
-<!>[The consumed item is restored by the effect of 'Idea of Almost Anything'.]
+<!>[The consumed item is restored by the effect of 'Thoughts of Almost Everything'.]
 <!>[The rare occasion of shape evolution has occurred!]
 <!>[The form of the item has evolved to a higher level!]
-<!>['Idea of Almost Anything' has turned into 'High-Level Poison Bomb'.]
+<!>['Thoughts of Almost Everything' has turned into 'High-Level Poison Bomb'.]
 A moment later, a faintly glowing bomb appeared in front of me.
 <!>[This item is a consumable item.]
 <!>[When the item is used, you won't be able to use the form again.]

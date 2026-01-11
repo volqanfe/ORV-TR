@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../../../assets/reader.css">
     <link rel="stylesheet" href="../../../assets/reader-rich-text.css">
     <meta name="description" content="Read Omniscient Reader's Viewpoint online">
+    
 </head>
 
 <body>
@@ -92,19 +93,18 @@
 
                 </select></div>
             <div class="setting_item">Font Size
-                <input type="number" min="30" max="100" value="52" id="set-font-size">
+                <input type="number" min="30" max="100" value="51" id="set-font-size">
             </div>
+            <div class="setting_item">Line Height
+                <input type="number" min="1" max="100" value="49" oninput="" id="set-line-height">
+			</div>
             <div class="setting_item">Font Weight
                 <select name="set-font-weight" id="set-font-weight">
                     <option value="normal" style="font-weight: unset;" selected>Normal</option>
                     <option value="lighter" style="font-weight: lighter;">Lighter</option>
                     <option value="bold" style="font-weight: bold;">Bold</option>
                     <option value="bolder" style="font-weight: bolder;">Bolder</option>
-
                 </select>
-            </div>
-            <div class="setting_item">Line Height
-                <input type="number" min="1" max="100" value="32" oninput="" id="set-line-height">
             </div>
             <hr>
                 <div class="setting_item">Rich Text Features <input type="checkbox" name="set-rich-text-toggle"
@@ -156,14 +156,11 @@
     <nav class="download" id="download">
         <span class="close-download-btn" onclick="document.getElementById('download').style.display = 'none'">X</span>
         <hr>
-        <h1>Print this page content as PDF</h1>
+        <a href="../../../download.html"><button>Download Full EPUB</button></a>
+        <hr>
         <button onclick="print()">
             Print This Page
         </button>
-        <hr>
-        <h1>Download the Entire Novel</h1>
-        <a href="https://www.reddit.com/r/OmniscientReader/comments/17el055/linktree_to_orv_epub_with_illustrations_side/" target="_blank"
-            rel="noopener noreferrer"><button>More Downloads</button></a>
         <hr>
     </nav>
     <nav class="edit" id="edit">
@@ -218,7 +215,7 @@
 <p class="orv_line">Asmodeus had a threatening air but I didn't feel nervous.</p>
 <div class="orv_constellation"><p>[If you are really a demon king, don't be a pushover. Compete properly to obtain your share.]</p></div>
 <p class="orv_line">In the first place, it was apparent that Asmodeus had appeared here to 'help me'. He might be Asmodeus but the act of attacking fellow members of the Gourmet Association couldn't help being burdensome. Even so, he acted in such a manner while pretending to be a 'maniac'.</p>
-<p class="orv_line">Asmodeus' complexion paled as he shouted, </p>
+<p class="orv_line">Asmodeus' complexion paled as he shouted,</p>
 <div class="orv_constellation"><p>[Demon King of Salvation… You seem to be mistaken about something. I can eat you right now—]</p></div>
 <div class="orv_constellation"><p>[Don't repeat the same words and get the fuck out.]</p></div>
 <p class="orv_line">Asmodeus' eyes widened. I continued without stopping.</p>
@@ -311,7 +308,7 @@
 <div class="orv_constellation"><p>[Still, I would like to ask one thing.]</p></div>
 <p class="orv_line">It was an unexpected question and I reflexively looked at her.</p>
 <div class="orv_constellation"><p>[Demon King of Salvation. Why are you showing us such a scenario?]</p></div>
-<p class="orv_line">The eyes of the goddess seemed to contain a galaxy. Now they show like she had found a new star.</p>
+<p class="orv_line">The eyes of the goddess seemed to contain a galaxy. Now they shone like she had found a new star.</p>
 <div class="orv_constellation"><p>[In my eyes, you seem to have something to say. However, my eyes are dark and I can't figure out the scenario you showed me. If you don't mind, I'd like to hear it from your mouth.]</p></div>
 <p class="orv_line">She didn't say that the scenario I showed was crude and this was probably due to her innate humility. I could see Persephone smiling at me from beside the Morning Star Goddess.</p>
 <p class="orv_line">…I told you to do things yourself and this is the only way I can help you.</p>
@@ -328,7 +325,15 @@
             <a href="./ch_242"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z" /></svg>Previous</a>
             <a href="./ch_244">Next<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" /></svg></a>
         </div>
-        <div class="giscus" id="comments">
+         <div class="evadav">
+          
+		</div>
+        <div class="discord-banner" style="margin: 15px auto 0; padding: 12px 15px; background-color: var(--primary); border: 1px solid var(--text-secondary); border-radius: 8px; text-align: center; max-width: 800px; color: var(--text-primary);">
+            <p style="margin: 0 0 6px 0; font-size: 0.95em; line-height: 1.5;">Report issues on our <strong>Discord Server</strong> or join for discussion and new chapters!</p>
+            <p style="margin: 0 0 10px 0; font-size: 0.85em; opacity: 0.75;">Connect with the community, share theories, and stay updated!</p>
+            <a href="https://discord.gg/CZdNvKaNNr" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 7px 18px; background-color: #5865F2; color: #fff; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 0.9em; transition: background-color 0.3s;">Join Discord</a>
+        </div>
+        <div class="giscus" id="comments" style="margin-top: -8px;">
         </div>
     </div>
 

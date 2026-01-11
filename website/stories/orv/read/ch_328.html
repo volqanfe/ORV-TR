@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../../../assets/reader.css">
     <link rel="stylesheet" href="../../../assets/reader-rich-text.css">
     <meta name="description" content="Read Omniscient Reader's Viewpoint online">
+    
 </head>
 
 <body>
@@ -92,19 +93,18 @@
 
                 </select></div>
             <div class="setting_item">Font Size
-                <input type="number" min="30" max="100" value="52" id="set-font-size">
+                <input type="number" min="30" max="100" value="51" id="set-font-size">
             </div>
+            <div class="setting_item">Line Height
+                <input type="number" min="1" max="100" value="49" oninput="" id="set-line-height">
+			</div>
             <div class="setting_item">Font Weight
                 <select name="set-font-weight" id="set-font-weight">
                     <option value="normal" style="font-weight: unset;" selected>Normal</option>
                     <option value="lighter" style="font-weight: lighter;">Lighter</option>
                     <option value="bold" style="font-weight: bold;">Bold</option>
                     <option value="bolder" style="font-weight: bolder;">Bolder</option>
-
                 </select>
-            </div>
-            <div class="setting_item">Line Height
-                <input type="number" min="1" max="100" value="32" oninput="" id="set-line-height">
             </div>
             <hr>
                 <div class="setting_item">Rich Text Features <input type="checkbox" name="set-rich-text-toggle"
@@ -156,14 +156,11 @@
     <nav class="download" id="download">
         <span class="close-download-btn" onclick="document.getElementById('download').style.display = 'none'">X</span>
         <hr>
-        <h1>Print this page content as PDF</h1>
+        <a href="../../../download.html"><button>Download Full EPUB</button></a>
+        <hr>
         <button onclick="print()">
             Print This Page
         </button>
-        <hr>
-        <h1>Download the Entire Novel</h1>
-        <a href="https://www.reddit.com/r/OmniscientReader/comments/17el055/linktree_to_orv_epub_with_illustrations_side/" target="_blank"
-            rel="noopener noreferrer"><button>More Downloads</button></a>
         <hr>
     </nav>
     <nav class="edit" id="edit">
@@ -215,9 +212,9 @@
 <div class="orv_constellation"><p>[Very noisy. Do dokkaebis normally talk like this?]</p></div>
 <p class="orv_line">The red wine in the glass was sucked into the man's mouth. Then one of the heroes of Olympus died on the screen.</p>
 <div class="orv_system"><p>[The constellation 'God of Wine and Ecstasy' is cheering!]</p></div>
-<div class="orv_system"><p>[The constellation 'God of Wine and Ecstasy' has sponsored 3,000 cons to the 'Demon King of Salvation'.]</p></div>
-<p class="orv_line">At this absurd sight, Bihyung asked, "Aren't you a member of Olympus? Can you be sitting her leisurely?"</p>
-<div class="orv_constellation"><p>[What do you know? I'm not really close to them. In addition, aren't you the ones who said I can take a tour today?]</p></div>
+<div class="orv_system"><p>[The constellation 'God of Wine and Ecstasy' has sponsored 3,000 coins to the 'Demon King of Salvation'.]</p></div>
+<p class="orv_line">At this absurd sight, Bihyung asked, "Aren't you a member of Olympus? Can you be sitting here leisurely?"</p>
+<div class="orv_constellation"><p>[What do you know? I'm not really close to them. In addition, aren't you the one who said I can take a tour today?]</p></div>
 <p class="orv_line">Like any supporter on the street, Dionysus had a flag with his team on his back. The flag was covered with 'Olympus is doomed'.</p>
 <p class="orv_line">Dokgak's eyes narrowed. "The 12 Gods of Olympus would've gathered at Olympus Temple by now."</p>
 <div class="orv_constellation"><p>[I want Kim Dokja to win.]</p></div>
@@ -260,7 +257,7 @@
 <div class="orv_constellation"><p>[…Is that true Hermes?]</p></div>
 <div class="orv_constellation"><p>[Yes.]</p></div>
 <div class="orv_constellation"><p>[Huh, it is funny. The master of the nebula is building a 'story' on the same level as the Lightning Throne?]</p></div>
-<p class="orv_line">There was a stir in the group. 'A Single Story' was a sensitive topic for the 12 Gods. The constellations were all seeking the ultimate story. There was no one who wasn't interested in the hint of the end. It was the trident who arranged things. </p>
+<p class="orv_line">There was a stir in the group. 'A Single Story' was a sensitive topic for the 12 Gods. The constellations were all seeking the ultimate story. There was no one who wasn't interested in the hint of the end. It was the trident who arranged things.</p>
 <div class="orv_constellation"><p>[Quiet. Everyone is busy and there is a lot of work to do. We will start the vote.]</p></div>
 <p class="orv_line">Everyone in the place fell silent. The reason why so many gods gathered was due to the 60th scenario.</p>
 <div class="orv_constellation"><p>[In response to the provocation of Kim Dokja's Company, I, as chairman, am calling for the deployment of the story weapon.]</p></div>
@@ -303,7 +300,7 @@
 <p class="orv_line">The astonishment and resentment of the incarnations were soon directed towards me. I asked in return, "Why are you doing what? What did I do?"</p>
 <p class="orv_line">"We missed the chance to get a star relic because of you!"</p>
 <p class="orv_line">"It was a chance to get a story about catching a giant!"</p>
-<p class="orv_line">"I was going to catch the eyes of the 12 Gods and join Olympus!" Now because of you…!"</p>
+<p class="orv_line">"I was going to catch the eyes of the 12 Gods and join Olympus! Now because of you…!"</p>
 <p class="orv_line">Gigantomachia. With a participation fee of 100,000 coins, they got a chance to gain hidden pieces and if lucky, a piece of a giant story. That opportunity was now disappearing into a handful of dust in front of their eyes.</p>
 <p class="orv_line">I watched the incarnations and wondered, "Do you really think that Gigantomachia is such a naive event?"</p>
 <p class="orv_line">Perhaps they were right. There actually were incarnations and constellations who were strengthened through Gigantomachia. In addition, many of them likely became members of Olympus.</p>
@@ -331,7 +328,15 @@
             <a href="./ch_327"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z" /></svg>Previous</a>
             <a href="./ch_329">Next<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" /></svg></a>
         </div>
-        <div class="giscus" id="comments">
+         <div class="evadav">
+          
+		</div>
+        <div class="donation-banner" style="margin: 15px auto 0; padding: 12px 15px; background-color: var(--primary); border: 1px solid var(--text-secondary); border-radius: 8px; text-align: center; max-width: 800px; color: var(--text-primary);">
+            <p style="margin: 0 0 6px 0; font-size: 0.95em; line-height: 1.5;">ORV-Reader will always be <strong>AD-Free</strong> for the community. If you're enjoying the story, please consider donating!</p>
+            <p style="margin: 0 0 10px 0; font-size: 0.85em; opacity: 0.75;">Just 0.1% of readers contributing would be enough to help us reach our goal.</p>
+            <a href="../../../donate.html" style="display: inline-block; padding: 7px 18px; background-color: #ff5e1f; color: #fff; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 0.9em; transition: background-color 0.3s;">Support ORV-Reader</a>
+        </div>
+        <div class="giscus" id="comments" style="margin-top: -8px;">
         </div>
     </div>
 

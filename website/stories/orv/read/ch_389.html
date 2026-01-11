@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../../../assets/reader.css">
     <link rel="stylesheet" href="../../../assets/reader-rich-text.css">
     <meta name="description" content="Read Omniscient Reader's Viewpoint online">
+    
 </head>
 
 <body>
@@ -92,19 +93,18 @@
 
                 </select></div>
             <div class="setting_item">Font Size
-                <input type="number" min="30" max="100" value="52" id="set-font-size">
+                <input type="number" min="30" max="100" value="51" id="set-font-size">
             </div>
+            <div class="setting_item">Line Height
+                <input type="number" min="1" max="100" value="49" oninput="" id="set-line-height">
+			</div>
             <div class="setting_item">Font Weight
                 <select name="set-font-weight" id="set-font-weight">
                     <option value="normal" style="font-weight: unset;" selected>Normal</option>
                     <option value="lighter" style="font-weight: lighter;">Lighter</option>
                     <option value="bold" style="font-weight: bold;">Bold</option>
                     <option value="bolder" style="font-weight: bolder;">Bolder</option>
-
                 </select>
-            </div>
-            <div class="setting_item">Line Height
-                <input type="number" min="1" max="100" value="32" oninput="" id="set-line-height">
             </div>
             <hr>
                 <div class="setting_item">Rich Text Features <input type="checkbox" name="set-rich-text-toggle"
@@ -156,14 +156,11 @@
     <nav class="download" id="download">
         <span class="close-download-btn" onclick="document.getElementById('download').style.display = 'none'">X</span>
         <hr>
-        <h1>Print this page content as PDF</h1>
+        <a href="../../../download.html"><button>Download Full EPUB</button></a>
+        <hr>
         <button onclick="print()">
             Print This Page
         </button>
-        <hr>
-        <h1>Download the Entire Novel</h1>
-        <a href="https://www.reddit.com/r/OmniscientReader/comments/17el055/linktree_to_orv_epub_with_illustrations_side/" target="_blank"
-            rel="noopener noreferrer"><button>More Downloads</button></a>
         <hr>
     </nav>
     <nav class="edit" id="edit">
@@ -222,9 +219,15 @@
 <hr>
 <br>
 <p class="orv_line">Persephone's dining table I hadn't seen in a while remained pretty much the same; slabs of well-cooked and delicious-looking steaks, as well as salad, laid out in several layers on top of a large plate. On the outside, they resembled foods commonly found everywhere, but I already knew very well that those were no ordinary meal.</p>
-<div class="orv_system"><p>[Bravery of an Empress of Swords who Conquered the World]</p></div>
-<div class="orv_constellation"><p>[Wisdom of a 3rd Circle Magician who Spent his Entire Life in a Library]</p></div>
-<div class="orv_constellation"><p>[Will of a Swordmaster who Couldn't use Either Sword Strengthening or Sword Manifestation]</p></div>
+<div class="orv_window">
+<h3 class="orv_window_title">[Bravery of an Empress of Swords who Conquered the World]</h3>
+</div>
+<div class="orv_window">
+<h3 class="orv_window_title">[Wisdom of a 3rd Circle Magician who Spent his Entire Life in a Library]</h3>
+</div>
+<div class="orv_window">
+<h3 class="orv_window_title">[Will of a Swordmaster who Couldn't use Either Sword Strengthening or Sword Manifestation]</h3>
+</div>
 <p class="orv_line">I wondered if I saw something wrong here and read the menu one more time.</p>
 <div class="orv_constellation"><p>[Hurry and have your fill. Do you not find the menu to your liking?]</p></div>
 <p class="orv_line">"…No, it's not that, but…"</p>
@@ -234,16 +237,20 @@
 <p class="orv_line">My hand moving towards the fork came to a stop at her words. "Have you spoken to my mother?"</p>
 <div class="orv_constellation"><p>[Fufu. We've talked to each other a few times.]</p></div>
 <p class="orv_line">If it was Persephone, then she was fully capable of doing that. The foie gras placed before me had this name, even:</p>
-<div class="orv_constellation"><p>[Heart of a Mother Sending her Child Away]</p></div>
+<div class="orv_window">
+<h3 class="orv_window_title">[Heart of a Mother Sending her Child Away]</h3>
+</div>
 <p class="orv_line">…This couldn't have been my mother's actual heart, now was it?</p>
 <p class="orv_line">I put the fork down and spoke. "I see that the type of foods has changed since the last time. There were Swordmasters and Archmages here in the past, if I recall correctly."</p>
 <div class="orv_constellation"><p>[The 'Isle of Reincarnators' have opened now, so we should enjoy special dishes for a change, wouldn't you agree? I may look this way, but I'm still a member of the Gourmet Association, so I shouldn't be eating the same food every day.]</p></div>
-<p class="orv_line">Her fork and knife moved; accompanied by rich gravy, aromatic paragraphs leaked out from thinly-sliced Stories. Persephone's graceful hand movements brought that food into her mouth. What she ate just now was </p>
-<div class="orv_constellation"><p>[Will of a Swordmaster who Couldn't use Either Sword Strengthening or Sword Manifestation.]</p></div>
+<p class="orv_line">Her fork and knife moved; accompanied by rich gravy, aromatic paragraphs leaked out from thinly-sliced Stories. Persephone's graceful hand movements brought that food into her mouth. What she ate just now was</p>
+<div class="orv_window">
+<h3 class="orv_window_title">[Will of a Swordmaster who Couldn't use Either Sword Strengthening or Sword Manifestation.]</h3>
+</div>
 <div class="orv_constellation"><p>[And, some Stories will disappear if you don't make an effort to consume them.]</p></div>
 <p class="orv_line">Dying Stories were disintegrating at the end of the fork.</p>
 <p class="orv_line">Stories that no one searched for were pouring out entrancing sentences on the tip of Persephone's tongue right up until she consumed them.</p>
-<p class="orv_line">I felt complicated while watching that sight; Persephone looked back and smiled. </p>
+<p class="orv_line">I felt complicated while watching that sight; Persephone looked back and smiled.</p>
 <div class="orv_constellation"><p>[I'm aware that you are dissatisfied by the eating habits of the Constellations. You probably don't like the way we easily consume the joys, angers, sorrows, and pleasures of Incarnations.]</p></div>
 <p class="orv_line">"…"</p>
 <div class="orv_constellation"><p>[However, every incident taking place in the universe is destined to be left behind as a Story. You, me, other Incarnations, and Constellations. We'll be consumed by something else eventually.]</p></div>
@@ -255,8 +262,8 @@
 <p class="orv_line">"May I ask what is it that you really wish to tell me about?"</p>
 <div class="orv_constellation"><p>[In truth, Hades does not want you to remain in this place.]</p></div>
 <p class="orv_line">"…Does that mean he doesn't want me to be his successor?"</p>
-<div class="orv_constellation"><p>[It's different from that. If I were to put it into words… ]</p></div>
-<p class="orv_line">Persephone spoke, as she began cutting the delicacy placed on the plate in the middle of the table. </p>
+<div class="orv_constellation"><p>[It's different from that. If I were to put it into words…]</p></div>
+<p class="orv_line">Persephone spoke, as she began cutting the delicacy placed on the plate in the middle of the table.</p>
 <div class="orv_constellation"><p>[Hades, and I… We do not wish for you to stop as just the 'King of the Underworld'.]</p></div>
 <p class="orv_line">"That means…"</p>
 <div class="orv_constellation"><p>[Olympus has fallen. The Underworld, too, has lost its former glory. Being satisfied with the position of the 'King of the Underworld', now that is no different than placing your name on the coattail of a disappearing Story.]</p></div>
@@ -276,13 +283,13 @@
 <div class="orv_system"><p>['Fruit of Good and Evil' is worsening your guilty conscience.]</p></div>
 <p class="orv_line">…Even if that confirmation turned out to be a useless waste of time.</p>
 <p class="orv_line">Persephone quietly studied me for a little while, lightly wiped her lips with a napkin, and extended her hand in my direction. Her eyes were gentle and friendly, with not a hint of animosity in them. Flustered, I tried to get up, but her Status had already reached my shoulder.</p>
-<div class="orv_system"><p>[A very long time ago, we have received a certain revelation from the 'three sisters of fate'.]</p></div>
+<div class="orv_constellation"><p>[A very long time ago, we have received a certain revelation from the 'three sisters of fate'.]</p></div>
 <p class="orv_line">"…A revelation?"</p>
-<div class="orv_system"><p>[It said, 'A successor to the darkest night who will end the most ancient Myth, will appear'.]</p></div>
+<div class="orv_constellation"><p>[It said, 'A successor to the darkest night who will end the most ancient Myth, will appear'.]</p></div>
 <p class="orv_line">Abruptly, I recalled the story Dionysus told me before.</p>
 <p class="orv_line">– Several Constellations, including myself, believe that you will be the one to reach the ■■.</p>
 <p class="orv_line">The 'several Constellations' back then must've been Persephone and Hades.</p>
-<p class="orv_line">Meanwhile, she continued on. </p>
+<p class="orv_line">Meanwhile, she continued on.</p>
 <div class="orv_constellation"><p>[I was initially furious after hearing that oracle.]</p></div>
 <p class="orv_line">…Furious?</p>
 <div class="orv_constellation"><p>[Because I possess the Story 'One that can't have children'.]</p></div>
@@ -293,7 +300,7 @@
 <div class="orv_constellation"><p>[For many hundreds of years, I lived on in that delusion.]</p></div>
 <p class="orv_line">The ends of her fingers were trembling ever so slightly.</p>
 <p class="orv_line">I couldn't dare to understand the meaning behind that tremor. I simply couldn't even begin to unpack the pain and the hatred towards &lt;Olympus&gt; contained in each word she spoke.</p>
-<p class="orv_line">Persephone managed to sigh softly and continued on. </p>
+<p class="orv_line">Persephone managed to sigh softly and continued on.</p>
 <div class="orv_constellation"><p>[Hades and I forced our way past many things for a very long time. We knew that we couldn't have children, but we were never unhappy. Even if the &lt;Underworld&gt; would come to an end in our generation and no one would remember the Stories we had lived through – we are different from the 12 gods, that we're different from those parents who forcibly passed on their Stories to their children. That we are complete as just us.]</p></div>
 <p class="orv_line">"…"</p>
 <div class="orv_constellation"><p>[But then, one day, you made your appearance.]</p></div>
@@ -332,7 +339,7 @@
 <p class="orv_line">At that moment, I thought for some reason, I could say the words I held back for the longest time.</p>
 <p class="orv_line">"…Father."</p>
 <p class="orv_line">Hades didn't reply. Maybe, that word was just as foreign to him as it was for me.</p>
-<p class="orv_line">Still, he did reply. </p>
+<p class="orv_line">Still, he did reply.</p>
 <div class="orv_constellation"><p>[Command the army.]</p></div>
 <p class="orv_line">I looked at him again, utterly stunned now.</p>
 <p class="orv_line">And in the next moment, I heard the sound akin to the darkness roaring out.</p>
@@ -344,14 +351,13 @@
 <p class="orv_line">The second Judge prostrated and looked at me.</p>
 <p class="orv_line">And as the third Judge powerfully raised his spear towards the heavens, every soul here began roaring out in a single voice.</p>
 <div class="orv_constellation"><p>[For the eternity of all scenarios and their epilogue!]</p></div>
-<p class="orv_line">As the roar continued on, the 'King of the Underworld' addressed me. </p>
+<p class="orv_line">As the roar continued on, the 'King of the Underworld' addressed me.</p>
 <div class="orv_constellation"><p>[Now, go.]</p></div>
 <p class="orv_line">Hades didn't even look at me when he said that.</p>
 <p class="orv_line">Even though he didn't, he was still looking at me.</p>
 <p class="orv_line">He had always been looking at me.</p>
 <div class="orv_system"><p>[&lt;Underworld&gt; is your ally from this moment on.]</p></div>
 <div class="orv_image"><img src="../../../assets/images/389 - He had always been looking at me.jpg" alt="" loading="lazy"></div>
-<p class="orv_line">*</p>
 <div class="orv_notice"><p>* Official novel illustration (canonical)</p></div>
 <br>
 <hr>
@@ -360,7 +366,15 @@
             <a href="./ch_388"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z" /></svg>Previous</a>
             <a href="./ch_390">Next<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" /></svg></a>
         </div>
-        <div class="giscus" id="comments">
+         <div class="evadav">
+          
+		</div>
+        <div class="donation-banner" style="margin: 15px auto 0; padding: 12px 15px; background-color: var(--primary); border: 1px solid var(--text-secondary); border-radius: 8px; text-align: center; max-width: 800px; color: var(--text-primary);">
+            <p style="margin: 0 0 6px 0; font-size: 0.95em; line-height: 1.5;">ORV-Reader will always be <strong>AD-Free</strong> for the community. If you're enjoying the story, please consider donating!</p>
+            <p style="margin: 0 0 10px 0; font-size: 0.85em; opacity: 0.75;">Just 0.1% of readers contributing would be enough to help us reach our goal.</p>
+            <a href="../../../donate.html" style="display: inline-block; padding: 7px 18px; background-color: #ff5e1f; color: #fff; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 0.9em; transition: background-color 0.3s;">Support ORV-Reader</a>
+        </div>
+        <div class="giscus" id="comments" style="margin-top: -8px;">
         </div>
     </div>
 
